@@ -9,8 +9,8 @@ import Pages from './components/New-one.vue';
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="Mohammed Developer" />
-      <Pages/>
+      <HelloWorld msg="You did it!" />
+      <Pages />
     </div>
   </header>
 
@@ -20,6 +20,9 @@ import Pages from './components/New-one.vue';
 </template>
 
 <style scoped>
+header {
+  line-height: 1.5;
+}
 header {
   line-height: 1.5;
 }
