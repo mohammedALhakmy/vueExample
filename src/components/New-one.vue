@@ -4,6 +4,8 @@
     <h3>{{ getData().email }}</h3> <br>
     <h3>{{ getData().phone }}</h3>
     <button v-on:click="funs">func</button>
+    <input type="text" v-model="count" placeholder="Add Any World or number">
+    <span>{{count}}</span>
 </template>
 
 <script>
@@ -27,7 +29,8 @@ export default {
             },
             funs(){
                 alert("function alert ");
-            }
+            },
+            count:0
         }
     }
 }

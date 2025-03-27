@@ -2,6 +2,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import Pages from './components/New-one.vue';
+import InputBoxes from './components/inputboxes.vue';
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import Pages from './components/New-one.vue';
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
       <Pages />
+      <InputBoxes />
     </div>
   </header>
 
