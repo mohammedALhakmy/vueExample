@@ -3,6 +3,7 @@
     <span>{{ getSecond("Ali") }}</span>
     <h3>{{ getData().email }}</h3> <br>
     <h3>{{ getData().phone }}</h3>
+    <button v-on:click="funs">func</button>
 </template>
 
 <script>
@@ -23,6 +24,9 @@ export default {
                     email:"test1@test.com",
                     phone:"0502879159",
                 }
+            },
+            funs(){
+                alert("function alert ");
             }
         }
     }
