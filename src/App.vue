@@ -4,6 +4,9 @@ import TheWelcome from './components/TheWelcome.vue'
 import Pages from './components/New-one.vue';
 import InputBoxes from './components/inputboxes.vue';
 import Ifelse from './components/if-else.vue';
+import For from './components/for.vue';
+
+
 </script>
 
 <template>
@@ -15,6 +18,7 @@ import Ifelse from './components/if-else.vue';
       <Pages />
       <InputBoxes />
       <Ifelse />
+      <For />
     </div>
   </header>
 
