@@ -3,6 +3,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import Pages from './components/New-one.vue';
 import InputBoxes from './components/inputboxes.vue';
+import Ifelse from './components/if-else.vue';
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import InputBoxes from './components/inputboxes.vue';
       <HelloWorld msg="You did it!" />
       <Pages />
       <InputBoxes />
+      <Ifelse />
     </div>
   </header>
 
