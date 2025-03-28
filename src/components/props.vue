@@ -1,8 +1,8 @@
 <template>
     <div>components</div>
-    <li>{{data.name}}</li>
-    <li>{{data.email}}</li>
-    <li>{{data.phone}}</li>
+    <!-- <li>{{data.name}}</li> -->
+    <!-- <li>{{data.email}}</li> -->
+    <!-- <li>{{data.phone}}</li> -->
 </template>
 <script>
 export default {

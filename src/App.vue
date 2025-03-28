@@ -11,19 +11,22 @@ import For from './components/for.vue';
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+    
+    <div class="wrapper"> 
       <Pages />
       <InputBoxes />
       <Ifelse />
-      <For />
+      <for />
     </div>
   </header>
+ 
+  <nav>
+    <RouterLink to="/">الرئيسية</RouterLink> |
+    <RouterLink to="/home">حول</RouterLink>
+  </nav>
 
   <main>
-    <TheWelcome />
+    <router-view></router-view>
   </main>
 </template>
 

@@ -5,13 +5,13 @@
             <li v-for="program in programming" :key="program">{{program}}</li>
         </ul>
         <ul>
-            <li v-for="login in user" :key="login.name">
-                    <Props :data="login"/>
+            <li v-for="login in user" :key="login">
+                <Props :data="login" />
             </li>
         </ul>
     </div>
-    <ChildComponents name="test child 000"/>
-    <Props name="test child 000"/>
+    <ChildComponents name="test child 000" />
+    <Props name="test child 000" />
 </template>
 <script>
 import ChildComponents from './child.vue';
